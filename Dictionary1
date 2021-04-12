@@ -1,6 +1,7 @@
 #program not finished
 recipeHolder = {}
 item = {}
+recipe = 0
 key = input("please enter recipe name: ")
 ingredients = input("Please enter the ingredients: ")
 recipeHolder = {key:ingredients}
