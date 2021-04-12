@@ -3,3 +3,4 @@ recipeHolder = {}
 
 x = True
 while x != quit:
+    menu = input("Enter menu, help, or M for further instructions: " )
