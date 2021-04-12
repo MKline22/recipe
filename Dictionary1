@@ -17,3 +17,4 @@ while x != quit:
     name = input("please enter recipe name")
     ingredients = input("please enter ingedients")
     recipeHolder = {key:ingredients}
+item ={recipeHolder}
