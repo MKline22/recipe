@@ -7,3 +7,5 @@ while x != quit:
   x = menu 
   if x in ['quit']:
     quit()
+  if menu in ['menu', 'help', 'M', 'm']:
+    print("\nYour options are:\nN: Add New Recipe\nL: List Existing Recipes\nR: Read Recipe\nQ: Quit\n\n")
