@@ -1,6 +1,6 @@
 #program not finished
 recipeHolder = {}
-
+entry1 = 0
 x = True
 while x != quit:
   menu = input("Enter menu, help, or M for further instructions: " )
