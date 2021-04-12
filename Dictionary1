@@ -10,6 +10,7 @@ while x != quit:
   menu = input("Enter menu, help, or M for further instructions: " )
   x = menu 
   if x in ['quit']:
+    print("type quit to end the program")
     quit()
   if menu in ['menu', 'help', 'M', 'm']:
     print("\nYour options are:\nN: Add New Recipe\nL: List Existing Recipes\nR: Read Recipe\nQ: Quit\n\n")
@@ -21,5 +22,5 @@ while x != quit:
     item ={recipeHolder}
  elif menu in ['l']
     print("the existing recipes are: ")
-    
+
 
