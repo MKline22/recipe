@@ -14,6 +14,6 @@ while x != quit:
     print("\nYour options are:\nN: Add New Recipe\nL: List Existing Recipes\nR: Read Recipe\nQ: Quit\n\n")
  elif menu in ['n']:
     print("You've chosen to add a new recipe")
-    key = input("please enter recipe name")
+    name = input("please enter recipe name")
     ingredients = input("please enter ingedients")
     recipeHolder = {key:ingredients}
