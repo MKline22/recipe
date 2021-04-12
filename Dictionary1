@@ -1,8 +1,9 @@
 #program not finished
 recipeHolder = {}
 item = {}
-key = 0
-ingredients = 0
+key = input("please enter recipe name")
+ingredients = input("Please enter the ingredients")
+recipeHolder = {key:ingredients}
 x = True
 while x != quit:
   menu = input("Enter menu, help, or M for further instructions: " )
