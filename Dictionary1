@@ -18,4 +18,8 @@ while x != quit:
     name = input("please enter recipe name")
     ingredients = input("please enter ingedients")
     recipeHolder = {key:ingredients}
-item ={recipeHolder}
+    item ={recipeHolder}
+ elif menu in ['l']
+    print("the existing recipes are: ")
+    
+
