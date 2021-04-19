@@ -1,4 +1,4 @@
-#program not finished
+#program is finished but not working at 100%
 recipeHolder = {}
 item = {}
 recipe = 0
@@ -28,5 +28,5 @@ while x != quit:
       print("you have no recipes")
  elif menu in ['r']
     print("the recipe is" + item)
-#end of program today will fix tomorrow
+
 
