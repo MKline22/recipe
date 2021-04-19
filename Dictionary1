@@ -21,7 +21,7 @@ while x != quit:
     instructions = input("please enter instructions")
     item =(recipeHolder)
  elif menu in ['l']
-    print("the existing recipes are: ")
+    print("enter the key name to see if your recipe exists: ")
  elif menu in ['r']
     print("the recipe is")
 #end of program today will fix tomorrow
