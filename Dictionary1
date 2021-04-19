@@ -22,6 +22,8 @@ while x != quit:
     item =(recipeHolder)
  elif menu in ['l']
     print("enter the key name to see if your recipe exists: ")
+    try:
+      print(key)
  elif menu in ['r']
     print("the recipe is")
 #end of program today will fix tomorrow
