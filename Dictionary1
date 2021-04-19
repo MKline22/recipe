@@ -27,6 +27,6 @@ while x != quit:
     except:
       print("you have no recipes")
  elif menu in ['r']
-    print("the recipe is")
+    print("the recipe is" + item)
 #end of program today will fix tomorrow
 
